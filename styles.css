@@ -1,0 +1,26 @@
+body {
+  font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #1a1a1a, #2d2d2d, #1a1a1a);
+  color: #00ffaa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  white-space: nowrap;
+  overflow-x: hidden;
+  transition: background 1s ease;
+}
+
+.content {
+  opacity: 1;
+}
+
+.revealed {
+  margin: 5px;
+  color: #00ffaa;
+  text-decoration: underline;
+}
